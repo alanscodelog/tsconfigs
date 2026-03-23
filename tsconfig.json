@@ -23,7 +23,6 @@
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
 		"verbatimModuleSyntax": true,
-		"importsNotUsedAsValues": "remove", // workaround for https://github.com/microsoft/TypeScript/issues/53302 
 		"erasableSyntaxOnly": true,
 		"noUncheckedIndexedAccess": false
 	},
