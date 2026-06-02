@@ -1,5 +1,6 @@
-[![Release](https://github.com/alanscodelog/tsconfigs/actions/workflows/release.yml/badge.svg)](https://github.com/alanscodelog/tsconfigs/actions/workflows/release.yml)
-[![NPM Version (with latest tag)](https://img.shields.io/npm/v/%40alanscodelog%2Ftsconfigs/latest)](https://www.npmjs.com/package/@alanscodelog/tsconfigs/v/latest)
+[![Release][release-src]][release-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![License][license-src]][license-href]
 
 # Install
 
@@ -31,3 +32,11 @@ Then add a script to the `package.json`:
 	"build:types": "tsc -p tsconfig.types.json --emitDeclarationOnly",
 }
 ```
+
+<!-- Badges -->
+[release-src]: https://github.com/alanscodelog/tsconfigs/actions/workflows/release.yml/badge.svg
+[release-href]: https://github.com/alanscodelog/tsconfigs/actions/workflows/release.yml
+[npm-version-src]: https://img.shields.io/npm/v/@alanscodelog/tsconfigs/latest
+[npm-version-href]: https://www.npmjs.com/package/@alanscodelog/tsconfigs/v/latest
+[license-src]: https://img.shields.io/npm/l/@alanscodelog/tsconfigs.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/@alanscodelog/tsconfigs
